@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  h4 {
+    color: purple;
+  }
+  
+  #camera {
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+  }
+  
+  img {
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px gray;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  .column {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
